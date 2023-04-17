@@ -2,8 +2,25 @@ body {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
+/*** HEADER ***/
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
 .logo {
   color: #13183f;
   font-weight: 800;
   font-size: 28px;
+}
+
+.header-button {
+  background-color: #13183f;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 10px 24px;
+  border-radius: 28px;
+  border: none;
+  line-height: 28px;
 }
