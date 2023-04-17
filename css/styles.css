@@ -1,11 +1,16 @@
-body {
+.container {
   font-family: "Plus Jakarta Sans", sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 /*** HEADER ***/
+
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -23,4 +28,16 @@ header {
   border-radius: 28px;
   border: none;
   line-height: 28px;
+}
+
+/*** MAIN ***/
+
+.main-title {
+  margin-top: 30px;
+}
+
+.main-description {
+  color: #83869a;
+  font-size: 16px;
+  line-height: 26px;
 }
